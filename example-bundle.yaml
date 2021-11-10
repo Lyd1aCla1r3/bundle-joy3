@@ -1,0 +1,43 @@
+---
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: example-bundle
+  namespace: entando
+  labels:
+    widget: 'true'
+    bundle-type: standard-bundle
+spec:
+  details:
+    name: example-bundle
+    description: This is an example of an Entando bundle
+    dist-tags:
+      latest: v0.0.5
+    versions:
+      - v0.0.5
+      - v0.0.4
+      - v0.0.3
+      - v0.0.2
+      - v0.0.1
+  tags:
+    - version: v0.0.5
+      shasum: 77b276bf5b2442af4e39f66766350507591e2168
+      integrity: 77b276bf5b2442af4e39f66766350507591e2168
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-joy2.git'
+    - version: v0.0.4
+      shasum: 77b276bf5b2442af4e39f66766350507591e2168
+      integrity: 77b276bf5b2442af4e39f66766350507591e2168
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-joy2.git'
+    - version: v0.0.3
+      shasum: 77b276bf5b2442af4e39f66766350507591e2168
+      integrity: 77b276bf5b2442af4e39f66766350507591e2168
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-joy2.git'
+    - version: v0.0.2
+      shasum: cb70b217b8ab0dafcda5271642262f990703f2f5
+      integrity: cb70b217b8ab0dafcda5271642262f990703f2f5
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-joy2.git'
+    - version: v0.0.1
+      shasum: c367cc672d3477598ef6040f234babbabb052c8c
+      integrity: c367cc672d3477598ef6040f234babbabb052c8c
+      tarball: 'https://github.com/Lyd1aCla1r3/bundle-joy2.git'
+
